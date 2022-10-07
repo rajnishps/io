@@ -191,8 +191,6 @@ button {
   border-radius: 999px;
   height: 100px;
 }
-.chef-1 {
-}
 .chef-2 {
   color: black;
   border-radius: 20px;
@@ -200,8 +198,6 @@ button {
   width: 400px;
   padding: 20px;
   background: whitesmoke;
-}
-.chef-3 {
 }
 
 .food-guide {
