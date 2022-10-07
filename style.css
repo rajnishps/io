@@ -1,0 +1,248 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 70px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 22px;
+}
+
+.sub-head {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  margin: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  border-bottom: 1px solid #000;
+}
+h4 {
+  font-weight: 700;
+}
+.all-cards {
+  margin: 50px;
+  margin-top: 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 700px 350px 350px;
+  grid-template-rows: 280px 280px;
+}
+.card-1 {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+.card-1 > img {
+  height: 700px;
+}
+.card-2 > img,
+.card-3 > img,
+.card-4 > img,
+.card-5 > img {
+  height: 280px;
+}
+.card {
+  position: relative;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-text {
+  color: whitesmoke;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 14px;
+}
+
+.card-text-1 {
+  height: 200px;
+  width: 700px;
+  padding: 20px;
+  background: rgba(61, 47, 119, 0.7);
+}
+.card-text-2,
+.card-text-3,
+.card-text-5 {
+  height: 130px;
+  width: 350px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+  font-size: 10px;
+}
+.card-text-4 {
+  height: 130px;
+  width: 350px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: whitesmoke;
+  font-size: 10px;
+}
+
+footer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.icon {
+  height: 50px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-bottom > button {
+  font-size: 12px;
+  border: none;
+  background: none;
+}
+.card-bottom-1 > button {
+  font-size: 14px;
+  border: 1px solid whitesmoke;
+  height: 30px;
+  width: 90px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.card-bottom-1 > button,
+.card-bottom-4 > button {
+  color: whitesmoke;
+}
+span > img {
+  height: 12px;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+
+.cuisine-wrapper {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.cuisine-card {
+  height: 250px;
+  width: 33%;
+}
+.cuisine-card > p {
+  font-size: 12px;
+  font-weight: 100;
+}
+.cuisine-card > h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.chefs-bg,
+.food-bg {
+  width: 100%;
+}
+.top-chefs,
+.food-guide {
+  position: relative;
+}
+.chef {
+  width: 200px;
+  position: absolute;
+  cursor: pointer;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 12px;
+}
+.chef > img {
+  border-radius: 999px;
+  height: 100px;
+}
+.chef-1 {
+  top: 200px;
+  left: 250px;
+}
+.chef-2 {
+  top: 150px;
+  left: 550px;
+  color: black;
+  border-radius: 20px;
+  height: 300px;
+  width: 400px;
+  padding: 20px;
+  background: whitesmoke;
+}
+.chef-3 {
+  top: 200px;
+  left: 1050px;
+}
+
+.food-head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.food-card {
+  position: absolute;
+  top: 100px;
+  font-size: 12px;
+  width: 300px;
+  text-align: center;
+}
+
+.food-card > img {
+  height: 120px;
+}
+
+.food-card-1 {
+  left: 50px;
+}
+.food-card-2 {
+  left: 50px;
+  top: 450px;
+}
+.food-card-3 {
+  right: 50px;
+}
+.food-card-4 {
+  right: 50px;
+  top: 450px;
+}
