@@ -1,1 +1,1 @@
-![Alt text](./public/live.png "Live Preview")
+![Live Preview](./public/live.png "Live Preview")
